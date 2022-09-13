@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a:not(.whyRamda) {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container > div {
+  width: 1280px;
+}
+/* ?Logo*/
+.logo {
+  display: inline-block;
+  margin: 30px 0;
+  color: #1bbfe5;
+  font-size: 50px;
+}
+.logo span {
+  color: #000;
+}
+
+/* ?Top Navigation bottom*/
+
+.top_navbar_bottom {
+  display: flex;
+  justify-content: space-around;
+  background-color: #2b414e;
+  padding: 0 80px;
+}
+
+.top_navbar_bottom a {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px 35px;
+}
+
+.top_navbar_bottom a:hover {
+  background-color: #142a38;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  cursor: pointer;
+}
+/*?Left Navigation */
+.main_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.left_navbar {
+  width: 25%;
+  height: 240px;
+  border: 3px solid #c8c9cb;
+  padding: 10px 0 10px 0;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.left_navbar li {
+  list-style: none;
+  font-size: 20px;
+  padding: 10px 0 10px 30px;
+}
+.left_navbar li:hover {
+  color: #000;
+  background-color: #dcdcdc;
+  padding-left: 50px;
+}
+.left_navbar a {
+  color: #525e66;
+}
+/*?Main right side*/
+.main_rightSide {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_rightSide > :first-child {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #c8c9cb;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.img_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-bottom: 30px;
+}
+.img_div > img {
+  width: 400px;
+  height: 300px;
+  cursor: pointer;
+  transition: width 0.5s, height 0.5s;
+  -webkit-transition: width 0.5s, height 0.5s;
+  -moz-transition: width 0.5s, height 0.5s;
+  -ms-transition: width 0.5s, height 0.5s;
+  -o-transition: width 0.5s, height 0.5s;
+}
+.img_div > img:hover {
+  width: 450px;
+  height: 350px;
+}
+.main_rightSide_text > :first-child {
+  margin-bottom: 20px;
+}
+.main_rightSide_text {
+  width: 95%;
+}
+/*?Footer*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  font-size: 20px;
+  background-color: #b3b8bb;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.footer_leftSide {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.whyRamda {
+  color: #358aa1;
+}
+.footer_leftSide a:not(.whyRamda) {
+  color: #000;
+}
+.footer_rightSide {
+}
